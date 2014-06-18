@@ -2,7 +2,7 @@
 
 
 # About this script:
-#   Move pics into folder by year/month/day
+#   Move pics into folders by year/month/day
 #   Parameters- source and destination folders
 
 # based on: http://blog.irisquest.net/2008_05_01_archive.html
