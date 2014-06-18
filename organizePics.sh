@@ -1,8 +1,12 @@
 #!/bin/bash
 
 
-# gets source and destination folders, create year, day anf month folders, and move the pics into them
+# About this script:
+#   it gets source and destination folders of pics, create year, day anf month folders, and move the pics into them
 # based on: http://blog.irisquest.net/2008_05_01_archive.html
+
+# Prerequisite:
+#   sudo apt-get install libimage-exiftool-perl
 
 function create_if_not_exists {
   if [ ! -d $1 ]; then
