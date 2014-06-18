@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+# gets source and destination folders, create year, day anf month folders, and move the pics into them
+# based on: http://blog.irisquest.net/2008_05_01_archive.html
+
 function create_if_not_exists {
   if [ ! -d $1 ]; then
     mkdir $1
@@ -32,18 +36,6 @@ day_dir=$month_dir/$day
 create_if_not_exists $year_dir
 create_if_not_exists $month_dir
 create_if_not_exists $day_dir
-#
-# if [ ! -d $year_dir ]; then
-#   mkdir $year_dir
-# fi
-#
-# if [ ! -d $month_dir ]; then
-#   mkdir $month_dir
-# fi
-#
-# if [ ! -d $day_dir ]; then
-#   mkdir $day_dir
-# fi
 
 mv -f "$f" "$day_dir"
 echo "Moved $f to $day_dir"
