@@ -2,7 +2,9 @@
 
 
 # About this script:
-#   it gets source and destination folders of pics, create year, day anf month folders, and move the pics into them
+#   Move pics into folder by year/month/day
+#   Parameters- source and destination folders
+
 # based on: http://blog.irisquest.net/2008_05_01_archive.html
 
 # Prerequisite:
