@@ -1,0 +1,19 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "tools ===== **organizePics** - move pics into folders by year/month/day **downgradeSvn** - downgrade svn from 1.8 to 1.6 on Ubuntu (tested on 14.04)",
+  "main": "rename-files-by-regex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/royts/tools"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royts/tools/issues"
+  },
+  "homepage": "https://github.com/royts/tools"
+}
